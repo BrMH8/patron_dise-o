@@ -12,6 +12,8 @@ sidebar_position: 3
 
 5. Para cada variación del algoritmo, crea una nueva subclase concreta. Debe implementar todos los pasos abstractos, pero también puede anular algunos de los opcionales.
 
+![Diagrama](https://refactoring.guru/images/patterns/content/template-method/template-method.png)
+
 ## ✅Pros y ❌Contras
 **✅** Puede permitir que los clientes anulen solo ciertas partes de un algoritmo grande, 
 lo que los hace menos afectados por los cambios que se producen en otras partes del algoritmo.
