@@ -17,5 +17,6 @@ Además, el patrón es tan versátil que es un componente clave en la implementa
 
 ##  Quieres saber mas ?
 
-- visita el sigiente video [introduccion al patron ](https://www.youtube.com/watch?v=VqQqr3Zik1Y)
+- Visita el sigiente video [introduccion al patron ](https://www.youtube.com/watch?v=VqQqr3Zik1Y)
 
+- Visita el sigiente video [introduccion al patron observer ](https://www.youtube.com/watch?v=JIN--0m_V7Q)
