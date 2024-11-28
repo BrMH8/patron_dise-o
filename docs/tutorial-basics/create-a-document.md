@@ -2,56 +2,35 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Características 
+## Características del Patrón Template Method
 
-Documents are **groups of pages** connected through:
+El patrón Template Method ofrece una estructura flexible y reutilizable para definir algoritmos. Algunas caracteristicas son:
+1. **Estructura Definida:**
+   * **Método de plantilla:** Define la secuencia general de pasos del algoritmo.
+   * **Métodos hook:** Permiten a las subclases modificar el comportamiento del algoritmo en puntos específicos.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+2. **Flexibilidad:**
+   * **Personalización:** Las subclases pueden adaptar el algoritmo a sus necesidades específicas.
+   * **Reutilización:** El esqueleto del algoritmo se comparte entre múltiples subclases.
 
-## Create your first Doc
+3. **Invariante:**
+   * **Estructura fija:** La secuencia general de pasos permanece constante.
 
-Create a Markdown file at `docs/hello.md`:
+4. **Abstracción:**
+   * **Enfoque en lo general:** La clase base define la estructura, mientras que las subclases proporcionan los detalles.
 
-```md title="docs/hello.md"
-# Hello
+5. **Beneficios:**
+   * **Reutilización de código:** Evita la duplicación de código.
+   * **Extensibilidad:** Facilita la adición de nuevas funcionalidades.
+   * **Mantenibilidad:** Mejora la organización y comprensión del código.
 
-This is my **first Docusaurus document**!
-```
+6. **Usos comunes:**
+   * **Algoritmos con variaciones:** Cuando un algoritmo tiene pasos que pueden cambiar.
+   * **Frameworks:** Para proporcionar una estructura base a aplicaciones.
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-## Configure the Sidebar
-
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+**Ejemplo:**
+* **Receta de cocina:** La receta base define los pasos generales (preparar, cocinar, servir), mientras que las recetas específicas definen los ingredientes y métodos de cocción.
+# Diagrama
+![Diagrama](https://reactiveprogramming.io/_next/image?url=%2Fbooks%2Fpatterns%2Fimg%2Fpatterns-articles%2Ftemplete-method-diagram.png&w=1200&q=75)
+Este patrón es una herramienta valiosa en la programación orientada a objetos, ya que promueve la reutilización de código y la creación de sistemas más flexibles y mantenibles.

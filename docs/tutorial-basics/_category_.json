@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "Template Method",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Aprende los que es, para qué sirve y como aplicarlo"
   }
 }
