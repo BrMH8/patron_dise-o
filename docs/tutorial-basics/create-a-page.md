@@ -38,7 +38,7 @@ clase  GameAI  es
 ## Ejemplo de Diagrama 
 ![Diagrama](https://refactoring.guru/images/patterns/diagrams/template-method/example.png)
 
-## Relaciones con otros patrones
+## Relaciones entre Patrones
 
 * El método de fábrica es una especialización del método de plantilla . Al mismo tiempo, un método de fábrica puede servir como paso en un método de plantilla más grande .
 
