@@ -2,42 +2,36 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Descripción
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+El Patrón Command es un patrón de diseño de comportamiento que encapsula una solicitud como un objeto, permitiendo parametrizar objetos con operaciones, registrar solicitudes para ejecutarlas en un momento posterior, y soportar operaciones reversibles. Este patrón es ideal cuando necesitas separar el objeto que realiza una operación del objeto que la solicita, promoviendo la adherencia al principio de responsabilidad única y facilitando la extensibilidad del sistema.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+![Diagrama del Patrón Command](https://i.ytimg.com/vi/5i12FFiRl8A/maxresdefault.jpg)
 
-## Create your first React Page
 
-Create a file at `src/pages/my-react-page.js`:
+## Estructura del Patrón Command
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+### Command (Interfaz o Clase Abstracta):
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+Declara un método que se ejecutará para realizar una acción.
+Este método generalmente se denomina execute().
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+### ConcreteCommand (Comandos Concretos):
 
-## Create your first Markdown Page
+Implementa la interfaz Command y define la conexión entre una acción específica y el receptor correspondiente.
+Almacena una referencia al receptor y encapsula los detalles de la llamada a los métodos del receptor.
 
-Create a file at `src/pages/my-markdown-page.md`:
+### Receiver (Receptor):
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+Es el objeto que conoce cómo realizar las operaciones asociadas a la solicitud.
+El comando delega la ejecución de la solicitud al receptor.
 
-This is a Markdown page
-```
+### Invoker (Invocador):
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+Es el objeto que solicita la ejecución del comando.
+Puede gestionar una cola de comandos y realizar operaciones como ejecutar, deshacer o rehacer.
+
+### Client (Cliente):
+
+Crea y configura los objetos Command, asociándolos con los receptores y asignándolos al invocador.
+![Command](https://www.oscarblancarteblog.com/wp-content/uploads/2014/11/Command-pattern.jpg)
