@@ -10,6 +10,7 @@ El Patrón Command es un patrón de diseño de comportamiento que encapsula una 
 
 
 ## Estructura del Patrón Command
+![Command](https://www.oscarblancarteblog.com/wp-content/uploads/2014/11/Command-pattern.jpg)
 
 ### Command (Interfaz o Clase Abstracta):
 
@@ -34,4 +35,4 @@ Puede gestionar una cola de comandos y realizar operaciones como ejecutar, desha
 ### Client (Cliente):
 
 Crea y configura los objetos Command, asociándolos con los receptores y asignándolos al invocador.
-![Command](https://www.oscarblancarteblog.com/wp-content/uploads/2014/11/Command-pattern.jpg)
+
