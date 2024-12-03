@@ -11,3 +11,8 @@
 -   **Complejidad Incrementada:** Con un número elevado de _Observers_, la gestión y el rendimiento del sistema pueden volverse complejos.
 -   **Riesgo de Fugas de Memoria:** Si los _Observers_ no se eliminan correctamente, pueden causar problemas de memoria en sistemas de larga duración.
 -   **Dependencia del Orden de Ejecución:** La ejecución de los _Observers_ puede variar, lo que podría generar inconsistencias en ciertas aplicaciones críticas.
+
+### **Ventajas Adicionales**
+
+-   **Patrón Común en Frameworks**: Usado extensivamente en frameworks como Angular (RxJS) y React (useEffect y hooks).
+-   **Soporte para Desacoplamiento**: Permite cambiar _observers_ sin alterar el código del _subject_.
