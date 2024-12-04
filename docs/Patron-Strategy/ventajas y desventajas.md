@@ -1,18 +1,11 @@
-#### **Ventajas**
+## Ventajas
 
--   **Desacoplamiento:** El _Subject_ y los _Observers_ están débilmente acoplados; el _Subject_ no necesita conocer detalles sobre los _Observers_.
--   **Flexibilidad:** Permite agregar o eliminar _Observers_ dinámicamente sin alterar el código del _Subject_.
--   **Escalabilidad:** Ideal para sistemas donde los cambios en un estado deben reflejarse en múltiples componentes.
+-   Puedes intercambiar algoritmos usados dentro de un objeto durante el tiempo de ejecución.
+-   Puedes aislar los detalles de implementación de un algoritmo del código que lo utiliza.
+-   Puedes sustituir la herencia por composición.
+-   _Principio de abierto/cerrado_. Puedes introducir nuevas estrategias sin tener que cambiar el contexto.
+## Desventajas 
 
-----------
-
-#### **Desventajas**
-
--   **Complejidad Incrementada:** Con un número elevado de _Observers_, la gestión y el rendimiento del sistema pueden volverse complejos.
--   **Riesgo de Fugas de Memoria:** Si los _Observers_ no se eliminan correctamente, pueden causar problemas de memoria en sistemas de larga duración.
--   **Dependencia del Orden de Ejecución:** La ejecución de los _Observers_ puede variar, lo que podría generar inconsistencias en ciertas aplicaciones críticas.
-
-### **Ventajas Adicionales**
-
--   **Patrón Común en Frameworks**: Usado extensivamente en frameworks como Angular (RxJS) y React (useEffect y hooks).
--   **Soporte para Desacoplamiento**: Permite cambiar _observers_ sin alterar el código del _subject_.
+-   Si sólo tienes un par de algoritmos que raramente cambian, no hay una razón real para complicar el programa en exceso con nuevas clases e interfaces que vengan con el patrón.
+-   Los clientes deben conocer las diferencias entre estrategias para poder seleccionar la adecuada.
+-   Muchos lenguajes de programación modernos tienen un soporte de tipo funcional que te permite implementar distintas versiones de un algoritmo dentro de un grupo de funciones anónimas. Entonces puedes utilizar estas funciones exactamente como habrías utilizado los objetos de estrategia, pero sin saturar tu código con clases e interfaces adicionales.
