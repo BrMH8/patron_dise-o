@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Ejemplo 
+# Ejemplo de patron Command
 
 ### 1. Command (Interfaz del comando)
 Define un método genérico execute que será implementado por cada comando concreto.
@@ -132,7 +132,9 @@ No sabe nada acerca de cómo funcionan los dispositivos, solo sabe cómo ejecuta
 ### Cliente (Main):
 
 Configura el sistema asociando dispositivos, comandos y botones del control remoto.
+
 ## Ventajas del Ejemplo
+
 #### Desacoplamiento: 
 El control remoto no necesita saber cómo funciona cada dispositivo. Solo llama al método execute del comando.
 #### Flexibilidad:

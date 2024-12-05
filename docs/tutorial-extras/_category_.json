@@ -1,7 +1,8 @@
 {
-  "label": "Tutorial - Extras",
+  "label": "Patrón State",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Una breve introducción que explica que el Patrón State es un patrón de diseño de comportamiento que permite que un objeto cambie su comportamiento cuando su estado interno cambia, haciendo que parezca que el objeto cambia de clase."
   }
 }

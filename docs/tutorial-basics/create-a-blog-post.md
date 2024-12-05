@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Diagrama 
+# Diagrama del Patrón Command
 ![Diagrama del Patrón Command](https://tse2.mm.bing.net/th?id=OIP.NrAS65_9OSvTeAMDOvlC8gAAAA&pid=Api&P=0&h=180)
 
 ### Cliente (Cliente):
