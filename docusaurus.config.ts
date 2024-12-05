@@ -71,7 +71,7 @@ const config: Config = {
       title: 'Home 🏚️',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/git.png',
       },
       items: [
         {
@@ -82,8 +82,8 @@ const config: Config = {
         },
         
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/BrMH8/patron_dise-o.git',
+          label: 'Repositorio',
           position: 'right',
         },
       ],
