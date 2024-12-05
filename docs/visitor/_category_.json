@@ -1,0 +1,12 @@
+{
+<<<<<<<< HEAD:docs/Patron-Strategy/_category_.json
+  "label": "Patron-Strategy",
+  "position": 5,
+========
+  "label": "Visitor",
+  "position": 3,
+>>>>>>>> e2c781e10b52d5464994ec1a7703e3386d512fd7:docs/visitor/_category_.json
+  "link": {
+    "type": "generated-index"
+  }
+}
