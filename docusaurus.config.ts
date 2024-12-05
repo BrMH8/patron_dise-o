@@ -70,7 +70,7 @@ const config: Config = {
     navbar: {
       title: 'Home 🏚️',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'My documentacion',
         src: 'img/git.png',
       },
       items: [
