@@ -12,7 +12,10 @@ El **Patrón Mediator** es un patrón de diseño de comportamiento que centraliz
 
 El objetivo principal es reducir el acoplamiento entre los componentes del sistema, haciéndolos más fáciles de modificar, reutilizar y mantener.
 
-![Mediator](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHKTbKHHO0j3pIbOXd-h6p_uDUMvkAjyOOA&s)
+
+
+
+![alt text](image.png)
 
 ### **Historia y Contexto**
 
