@@ -1,0 +1,8 @@
+{
+  "label": "Patron - Command",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Una breve introducción que indica que el Patrón Command es un patrón de diseño de comportamiento, utilizado para encapsular solicitudes como objetos, permitiendo la parametrización de clientes con diferentes solicitudes y la gestión de operaciones como deshacer y rehacer."
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "label": "Patron - Iterador",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description": "Una breve introducción que explica que el Patrón Iterador es un patrón de diseño de comportamiento que permite recorrer los elementos de una colección de forma secuencial sin exponer su representación interna, proporcionando una interfaz uniforme para navegar por diferentes tipos de colecciones."
+    }
+  }
+  
