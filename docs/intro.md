@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Introducción:
+# Introducción
 ## Un Viaje por el Mundo de los Patrones de Diseño
 Los **patrones de diseño** son soluciones probadas y reutilizables a problemas comunes que surgen en el desarrollo de software. Son como plantillas o recetas que los desarrolladores pueden adaptar para resolver desafíos específicos en sus proyectos. Estos patrones no son reglas rígidas, sino guías flexibles que promueven la creación de código más limpio, eficiente y mantenible.
 
