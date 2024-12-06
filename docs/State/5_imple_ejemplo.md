@@ -1,5 +1,5 @@
 # Analogía e Implementación
-## Analogía en la videa real 
+## Analogía en la vida real 
 **Los botones e interruptores de tu teléfono inteligente se comportan de manera diferente según el estado actual del dispositivo:**
 * **Cuando el teléfono está desbloqueado, al presionar los botones se ejecutan varias funciones.**
 * **Cuando el teléfono está bloqueado, al presionar cualquier botón se accede a la pantalla de desbloqueo.**
